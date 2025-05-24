@@ -29,7 +29,7 @@ Agents Wazuh : Déployés sur les endpoints pour collecter logs, métriques et �
 3. Cas d'utilisation pratiques
 Détection de malwares : Identification de processus suspects (ex. : Netcat utilisé comme backdoor) via des règles SCA personnalisées.
 
-Surveillance cloud : Intégration avec AWS, Azure ou GCP pour protéger les workloads et conteneurs 68.
+Surveillance cloud : Intégration avec AWS, Azure ou GCP pour protéger les workloads et conteneurs.
 
 Threat Hunting : Utilisation du framework MITRE ATT&CK pour cartographier les tactiques d'attaquants (ex. : évasion de défense via modification du registre Windows).
 
@@ -40,18 +40,18 @@ Installation :
 
 Méthodes flexibles : manuelle, Docker, cloud (ex. : script wazuh-install.sh pour une VM Linux).
 
-Prérequis matériels : 8 cœurs CPU, 8 Go de RAM minimum 1.
+Prérequis matériels : 8 cœurs CPU, 8 Go de RAM minimum.
 
 Intégrations :
 
 Outils tiers : Elastic Stack (pour le machine learning), Suricata (NIDS), Ansible (automatisation), VirusTotal (analyse de fichiers).
 
-API REST : Pour extraire des données ou déclencher des actions personnalisées 511.
+API REST : Pour extraire des données ou déclencher des actions personnalisées.
 
 5. Avantages principaux
-Open source et évolutif : Adaptable aux environnements de petite ou grande échelle (cloud, on-premise) 36.
+Open source et évolutif : Adaptable aux environnements de petite ou grande échelle (cloud, on-premise).
 
-Communauté active : Documentation complète, mises à jour régulières et support via forums 3.
+Communauté active : Documentation complète, mises à jour régulières et support via forums.
 
 Réduction du bruit : Combinaison de règles basées sur les signatures (ex. : Suricata) et d'analyses comportementales via machine learning (Elastic).
 
